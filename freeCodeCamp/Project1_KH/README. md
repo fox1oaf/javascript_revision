@@ -1,0 +1,31 @@
+Taking reference of the freeCodeCamp 'Learn Basic JavaScript by Building a Role Playing Game' project. 
+
+A bit of twist - codes to watch out
+
+```
+// displaying each element on new line
+inventory.forEach((element) => {
+            text.innerText += element + '\n';
+
+// first link agilityText with the HTML element #agilityText
+const agilityText = document.querySelector('#agilityText');
+
+// change the diaplay text
+agilityText.innerText = agility;
+
+// function to run when you click the button
+button1.onclick = goStore;
+
+// obj structure 
+let obj = {
+    obj1 = {
+        prop1:'',
+        prop2:''
+    },
+    obj2 = ...
+}
+
+//  changing the obj to array to get the length (obj has no length)
+Object.keys(gear).length
+
+```
