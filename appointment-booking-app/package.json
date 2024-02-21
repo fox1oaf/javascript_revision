@@ -2,9 +2,10 @@
   "name": "appointment-booking-app",
   "version": "1.0.0",
   "description": "This API allows you integrate with an exisiting solution for appointment booking functionalities.",
-  "main": "src/index.js",
+  "main": "nodemon src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "appointment",
@@ -15,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
   }
 }
